@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harika Yalapala | Data Analyst Portfolio</title>
+  <link rel="icon" type="image/png" href="fav.png">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Roboto', sans-serif;
+      color: #333;
+      background-color: #f0f2f5;
+      line-height: 1.6;
+    }
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 5rem 2rem;
+      text-align: center;
+      position: relative;
+    }
+    header h1 {
+      font-family: 'Raleway', sans-serif;
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    header p {
+      font-size: 1.25rem;
+      color: #ecf0f1;
+    }
+    nav {
+      background: #fff;
+      box-shadow: 0 2px 4px rgba(0,0,0,.1);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    nav a {
+      text-decoration: none;
+      color: #2c3e50;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: #3498db;
+    }
+    .section {
+      max-width: 1000px;
+      margin: 3rem auto;
+      padding: 0 1.5rem;
+    }
+    .section h2 {
+      font-family: 'Raleway', sans-serif;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #2c3e50;
+      border-left: 5px solid #3498db;
+      padding-left: 1rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: #fff;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    }
+    footer {
+      background: #ecf0f1;
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+      color: #555;
+    }
+    a {
+      color: #3498db;
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+    .project-grid {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 2rem;
+  overflow-x: auto;
+  padding-bottom: 1rem;
+}
+
+.project-card {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 300px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.project-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.project-card h3 {
+  margin: 1rem 0 0.5rem;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.project-card p {
+  font-size: 0.95rem;
+  color: #444;
+  margin-bottom: 0.5rem;
+}
+
+.project-card .btn {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  color: white;
+  background-color: #3182ce;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.project-card .btn:hover {
+  background-color: #2563eb;
+}
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Harika Yalapala</h1>
+    <p>Data Analyst | Python • SQL • Power BI • Excel</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="section" id="about">
+    <h2>About Me</h2>
+    <p>I'm a detail-oriented Data Analyst with a strong foundation in data analysis, reporting, and visualization. I enjoy transforming raw data into clear, actionable insights using tools like Python, SQL, Excel, and Power BI. I'm passionate about solving problems and supporting business strategy through data-driven decisions.</p>
+  </section>
+
+  <section class="section" id="skills">
+    <h2>Skills</h2>
+    <div class="grid">
+      <div class="card"><strong>Python:</strong> Pandas, NumPy, Scikit-learn</div>
+      <div class="card"><strong>SQL & Databases:</strong> Data Cleaning, ETL</div>
+      <div class="card"><strong>Excel:</strong> Pivot Tables, Charts, Formulas</div>
+      <div class="card"><strong>Power BI:</strong> Dashboards, KPI Visualization</div>
+      <div class="card"><strong>ML Concepts:</strong> Regression, Classification, RNN, CNN</div>
+      <div class="card"><strong>Version Control:</strong> Git, GitHub</div>
+    </div>
+  </section>
+
+  <section class="section" id="experience">
+    <h2>Work Experience</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Data Intern</h3>
+        <p><em>Gladsome Capital (Jan 2025 – Jun 2025)</em></p>
+        <ul>
+          <li>Created automated reporting systems, improving efficiency by 25%</li>
+          <li>Built dashboards using Power BI to visualize business KPIs</li>
+          <li>Validated and cleaned large datasets using SQL and Excel</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>ML Intern</h3>
+        <p><em>Feynn Labs (Sep 2024 – Dec 2024)</em></p>
+        <ul>
+          <li>Developed machine learning models for predictive analytics</li>
+          <li>Performed data preprocessing, EDA, and feature engineering</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!--section class="section" id="projects">
+    <h2>Projects</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>EV Market Segmentation</h3>
+        <p>Segmented consumers for electric vehicles using ML techniques.</p>
+        <a href="https://github.com/HarikaMKHS/EV-Market-Segmentation-Analysis" target="_blank">GitHub →</a>
+      </div>
+      <div class="card">
+        <h3>Disease Prediction Web App</h3>
+        <p>Created a web application using RNN to predict diseases from symptoms.</p>
+        <a href="https://github.com/HarikaMKHS/disease_prediction" target="_blank">GitHub →</a>
+      </div>
+      <div class="card">
+        <h3>Indian Food Classification</h3>
+        <p>Used CNN to classify Indian food items from custom image datasets.</p>
+        <a href="https://github.com/HarikaMKHS/Mcdonalds_Fast_Food_Analysis" target="_blank">GitHub →</a>
+      </div>
+    </div>
+  </section-->
+  <section class="section" id="projects">
+  <h2>Projects</h2>
+  <div class="project-grid">
+    <a class="project-card" href="https://github.com/HarikaMKHS/EV-Market-Segmentation-Analysis" target="_blank">
+      <div class="project-image" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRbasj916mugpEMAXUEro2teUmiLinjemHRg&s');">
+        <div class="overlay">
+          <h3>EV Market Segmentation</h3>
+          <p>Tech Stack: Python, Pandas, Scikit-learn</p>
+        </div>
+      </div>
+    </a>
+
+    <a class="project-card" href="https://github.com/HarikaMKHS/disease_prediction" target="_blank">
+      <div class="project-image" style="background-image: url('https://www.news-medical.net/images/news/ImageForNews_776422_17123165547518811.jpg');">
+        <div class="overlay">
+          <h3>Disease Prediction App</h3>
+          <p>Tech Stack: Python, TensorFlow, RNN</p>
+        </div>
+      </div>
+    </a>
+
+    <a class="project-card" href="https://github.com/HarikaMKHS/Mcdonalds_Fast_Food_Analysis" target="_blank">
+      <div class="project-image" style="background-image: url('https://storage.googleapis.com/kaggle-datasets-images/5544329/9174162/6ab9aa966843f1819a0971e3e471f3c2/dataset-thumbnail.png?t=2024-08-14-16-47-47');">
+        <div class="overlay">
+          <h3>Indian Food Classifier</h3>
+          <p>Tech Stack: Python, TensorFlow, CNN</p>
+        </div>
+      </div>
+    </a>
+  </div>
+</section>
+
+<style>
+.project-grid {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 2rem;
+  overflow-x: auto;
+  padding-bottom: 1rem;
+}
+
+.project-card {
+  width: 300px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-image {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.project-image:hover {
+  transform: scale(1.02);
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 0.75rem;
+  text-align: center;
+}
+
+.overlay h3 {
+  margin-bottom: 0.25rem;
+  font-size: 1.1rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+.overlay p {
+  font-size: 0.85rem;
+}
+</style>
+
+
+  <section class="section" id="contact">
+  <h2>Contact</h2>
+  <div class="contact-grid">
+    <div><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" alt="GitHub" class="icon"> <strong>GitHub</strong>: <a href="https://github.com/HarikaMKHS" target="_blank">github.com/HarikaMKHS</a></div>
+    <div><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/gmail.svg" alt="Gmail" class="icon"> <strong>Gmail</strong>: <span style="color: #000">harikamkhs@gmail.com</span></div>
+    <div><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn" class="icon"> <strong>LinkedIn</strong>: <a href="https://www.linkedin.com/in/harika-yalapala-b70364265/" target="_blank">linkedin.com/in/harika-yalapala</a></div>
+    
+  </div>
+</section>
+
+<style>
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.contact-grid div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+  flex-wrap: wrap;
+}
+
+.contact-grid a {
+  color: #000;
+  text-decoration: none;
+}
+
+.contact-grid a:hover {
+  text-decoration: underline;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(100%);
+}
+</style>
+
+  
+  <footer>
+    &copy; 2025 Harika Yalapala | Portfolio Website
+  </footer>
+
+</body>
+</html>
